@@ -5,22 +5,22 @@
              Title="PostView">
     <VerticalStackLayout>
         <Label 
-            Text="{Binding UserId}"
+            Text="{Binding Post.UserId}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
         <Label 
-            Text="{Binding Id}"
+            Text="{Binding  Post.Id}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
         <Label 
-            Text="{Binding Title}"
+            Text="{Binding  Post.Title}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
         <Label 
-            Text="{Binding Body}"
+            Text="{Binding  Post.Body}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         
